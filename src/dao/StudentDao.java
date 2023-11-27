@@ -6,7 +6,7 @@ import dto.StudentDto;
 import file.FileIO;
 
 // Data Access Object : 데이터를 취급하는 클래스
-public class StudentDao {
+public class StudentDao implements StudentDaoInter {
   Scanner sc = new Scanner(System.in);
 
   private StudentDto student[];

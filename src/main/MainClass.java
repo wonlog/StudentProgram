@@ -3,14 +3,15 @@ package main;
 import java.util.Scanner;
 
 import dao.StudentDao;
+import dao.StudentDaoInter;
 
 public class MainClass {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
     // menu
-
-    StudentDao dao = new StudentDao();
+    // StudentDao dao = new StudentDao();
+    StudentDaoInter dao = new StudentDao();
 
     while (true) {
       System.out.println("========= 학생정보 프로그램 ==========");
